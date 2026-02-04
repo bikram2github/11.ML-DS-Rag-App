@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  streamlit-app:
+    image: bikram07ds/ml-ds-rag-app:latest
+    container_name: rag_ml_app_rr
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    restart: always
+
+
