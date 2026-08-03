@@ -5,8 +5,7 @@ import streamlit as st
 import uuid
 
 
-try:
-    
+try:    
     chatbot=get_chatbot()
     conn=get_connection()
 
