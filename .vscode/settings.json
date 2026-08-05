@@ -1,12 +1,9 @@
 {
-<<<<<<< HEAD
     "github.copilot.enable": {
         "plaintext": true,
         "markdown": true,
         "scminput": true,
         "dockerfile": true
     },
-=======
->>>>>>> 82ad87a5bc714cf2c836cae68c96c098c0a16970
     "python-envs.defaultEnvManager": "ms-python.python:system"
 }
