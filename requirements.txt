@@ -13,6 +13,8 @@ langchain-groq
 langchain-huggingface
 
 sentence-transformers
+torch
+
 
 langgraph
 langgraph-checkpoint
@@ -26,3 +28,4 @@ psycopg-pool
 python-dotenv
 pydantic
 
+pytest
