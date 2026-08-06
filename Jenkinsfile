@@ -14,7 +14,7 @@ pipeline{
                     echo Virtual environment already exists. Skipping creation.
                 ) else (
                     echo Creating virtual environment...
-                    "C:\\Users\\bikra\\AppData\\Local\\Programs\\Python\\Python312\\python.exe" -m venv venv
+                    "C:\\Users\\bikra\\AppData\\Local\\Programs\\Python\\Python311\\python.exe" -m venv venv
                 )
                 '''
             }
