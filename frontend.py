@@ -26,7 +26,6 @@ def full_reset_app():
 
 
 
-
 def generate_thread_id():
     thread_id= uuid.uuid4()
     return str(thread_id)

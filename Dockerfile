@@ -2,7 +2,6 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-# Upgrade pip first
 RUN pip install --upgrade pip
 
 COPY requirements.txt .
@@ -12,7 +11,6 @@ RUN pip install --no-cache-dir \
     torch torchvision \
     --index-url https://download.pytorch.org/whl/cpu
 
-# Install remaining dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
